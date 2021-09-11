@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Press+Start+2P&display=swap');
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 90px;
+    color: #DAE0DA;
+}
+
+h2 {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 5.2vw;
+    color: #00FF55;
+}
+
+h3 {
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    color: #BBDDBB;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.9vw;
+    color: #EEFFEE;
+}
+
+nav {
+    position: relative;
+    display: inline;
+    background-color: black;
+    color: white;
+    text-align: left;
+    vertical-align: middle;
+}
+
+li {
+    display: inline;
+}
+
+.block-list {
+    display: block;
+    line-height: 100px;
+    text-align: left;
+    margin-left: 12px;
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+}
+
+a:link {
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #BBDDBB;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:active {
+    color: #226622;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 1), rgba(0, 50, 0, 0));
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    z-index: 2;
+}
+
+#anim-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+#vid-gradient {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 50, 0, 0.3), rgba(0, 50, 0, 0.3));
+    z-index: 0;
+}
+
+#title {
+    position: fixed;
+    text-align: center;
+    top: 11.0vw;
+    line-height: 2.0vw;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+#profile-pic {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    text-align: center;
+    border-color: #003300;
+    border-style: solid;
+    border-width: 10px;
+    z-index: 3;
+    margin-top: -105px;
+}
+
+#socials {
+    position: fixed;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    top: 27.5vw;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+#content-background {
+    position: relative;
+    text-align: left;
+    background-image: linear-gradient(to right, rgba(50, 70, 50, 1), rgba(100, 110, 100, 1), rgba(50, 65, 50, 1));
+    border-color: #003300;
+    border-style: solid;
+    border-width: 5px 2px 0px 2px;
+    border-radius: 50px 50px 0px 0px; 
+    margin-left: 14vw;
+    margin-right: 14vw;
+    margin-top: 42.5vw;
+    margin-bottom: -87px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 0px;
+    padding-bottom: 12.0vw;
+    line-height: 1.0;
+    z-index: 2;
+}
+
+#funny-dog {
+    position: fixed;
+    text-align: center;
+    left: 250px;
+    top: 170px;
+    min-width: 400px;
+    min-height: 400px;
+    z-index: 3;
+}
+
+#rectangle {
+    position: fixed;
+    height: 100%;
+    width: 500px;
+    left: 200px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 33, 0, 0.5));
+    z-index: 1;
+}
+
+#fun-facts {
+    position: relative;
+    text-align: center;
+    margin-left: 750px;
+    margin-right: 50px;
+    margin-top: 60px;
+    z-index: 2;
+} 
+
