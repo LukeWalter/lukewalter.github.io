@@ -18,16 +18,40 @@ h2 {
     color: #00FF55;
 }
 
+h4 {
+    font-family: 'VT323', monospace;
+    text-align: left;
+    font-size: 3.2vw;
+    color: #00FF55;
+}
+
 h3 {
     font-family: 'VT323', monospace;
     font-size: 50px;
     color: #BBDDBB;
+    z-index: 4;
 }
 
 p {
     font-family: 'Source Code Pro', monospace;
     font-size: 1.9vw;
     color: #EEFFEE;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+figcaption {
+    display: inline-block;
+    font-family: 'VT323', monospace;
+    text-align: left;
+    font-size: 2.5vw;
+    color: white;
+    padding-left: 1.5vw;
+    vertical-align: middle;
 }
 
 nav {
@@ -96,7 +120,7 @@ a:active {
     margin-right: -10px;
     padding-top: 25px;
     padding-bottom: 50px;
-    z-index: 2;
+    z-index: 3;
 }
 
 #anim-background {
@@ -136,7 +160,7 @@ a:active {
     border-color: #003300;
     border-style: solid;
     border-width: 10px;
-    z-index: 3;
+    z-index: 4;
     margin-top: -105px;
 }
 
@@ -151,7 +175,7 @@ a:active {
     z-index: 1;
 }
 
-#content-background {
+#scroll-background {
     position: relative;
     text-align: left;
     background-image: linear-gradient(to right, rgba(50, 70, 50, 1), rgba(100, 110, 100, 1), rgba(50, 65, 50, 1));
@@ -166,6 +190,48 @@ a:active {
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 0px;
+    padding-bottom: 12.0vw;
+    line-height: 1.0;
+    z-index: 2;
+}
+
+.scroll-break {
+    position: relative;
+    min-height: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    margin-left: -4vw;
+    margin-right: -12vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    z-index: 2;
+} 
+
+#black-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 18%;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 100vw;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    z-index: 2;
+}
+
+#content-background {
+    position: relative;
+    text-align: left;
+    background-image: linear-gradient(to right, rgba(50, 70, 50, 1), rgba(100, 110, 100, 1), rgba(50, 65, 50, 0));
+    margin-left: 5vw;
+    margin-right: 15vw;
+    margin-top: 0px;
+    margin-bottom: -87px;
+    padding-left: 15vw;
+    padding-right: 150px;
+    padding-top: 4vw;
     padding-bottom: 12.0vw;
     line-height: 1.0;
     z-index: 2;
